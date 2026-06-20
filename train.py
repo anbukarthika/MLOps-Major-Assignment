@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 # Load dataset
 data = fetch_olivetti_faces()
-X, y = data.data, data.target
+X, y = data.data, data.target 
 
 # Split 70% train, 30% test
 X_train, X_test, y_train, y_test = train_test_split(
